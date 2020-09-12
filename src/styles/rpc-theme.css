@@ -1,0 +1,114 @@
+/*
+Site: RPC Theme v1.0.1
+Autor: Paulo Teilor
+*/
+
+
+/*-------------------------------------------------------------------------------------------------------------
+RESETS
+---------------------------------------------------------------------------------------------------------------*/
+/*Essa classe desabilita conjunto de icones na funÃ§Ã£o Read More*/
+p .understrap-read-more-link {
+    display: none !important;
+  }
+
+/*-------------------------------------------------------------------------------------------------------------
+FONTES E TIPOGRAFIA
+---------------------------------------------------------------------------------------------------------------*/
+/* Resets ----------------------------------------------------
+
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,900,900i|Open+Sans:400,400i,700,700i&display=swap');
+
+h1, h2, h3, h4, h5 {font-family: 'Effra', 'Open Sans', sans-serif;}
+p {font-family: 'Open Sans', sans-serif; color: #2a2a2a;}
+h1 {font-weight: bold !important; text-transform: uppercase; color:#2a2a2a;}
+.text-transform-none {text-transform: none !important;}
+.text-transform-uppercase {text-transform: uppercase  !important;}
+.text-transform-lowercase {text-transform: lowercase !important;}
+
+
+
+/* Font Styles ----------------------------------------------------
+Estilos para fontes presentes em seÃ§Ãµes, Ã¡reas e hovers */
+
+.h-font-fam {font-family: 'Open Sans', sans-serif;}
+.p-fon-fam {font-family: 'Open Sans', sans-serif;}
+.small-header {font-size: 1rem; padding-bottom: 10px; line-height: 1; color: #7b7b7b; }
+.big-header {font-size: 2rem; text-transform: uppercase; font-weight: 900; line-height: 1; color: #2a2a2a;}
+
+.strong {font-weight: bold !important;}
+.regular {font-weight:normal !important;}
+.light {font-weight: lighter !important;}
+
+.f-open {font-family: 'Open Sans', sans-serif !important;}
+.f-nunito {font-family: 'Nunito', sans-serif !important;}
+.f-effra {font-family: 'Effra', 'Open Sans', sans-serif;}
+
+.f-1 {font-size: 0.8rem !important;}
+.f-2 {font-size: 1rem !important;}
+.f-3 {font-size: 1.1rem !important;}
+.f-4 {font-size: 1.5rem !important;}
+.f-5 {font-size: 2rem !important;}
+
+.f-10-px {font-size:0.625rem !important;}
+.f-12-px {font-size:0.75rem !important;}
+.f-14-px {font-size:0.875rem !important;}
+.f-18-px {font-size:1.125rem !important;}
+.f-20-px {font-size:1.25rem !important;}
+.f-24-px {font-size:1.5rem !important;}
+.f-44-px {font-size:2.75rem !important;}
+
+.l-h-1 {line-height: 1 !important;}
+.l-h-2 {line-height: 1.5 !important;}
+.l-h-3 {line-height: 2 !important;}
+
+.f-color-azul-d {color:#024262;}
+.f-color-azul-l {color:#006398;}
+
+span .text-reset a {color:#fff !important;}
+
+
+/*-------------------------------------------------------------------------------------------------------------
+CORES
+---------------------------------------------------------------------------------------------------------------*/
+.bg-gray {background-color: #f3f3f3 !important; }
+.bg-opacity-0 {background-color: transparent !important;}
+
+/*-------------------------------------------------------------------------------------------------------------
+HEADER RPC
+---------------------------------------------------------------------------------------------------------------*/
+
+/* Header azul ----------------------------------------------------*/ 
+
+.header-azul {background-color:#024262;}
+.header-menu-azul {background-color:#006398;}
+.active {border-bottom: 4px solid #fdde74; padding: 0 12px;}
+.menu-item{padding-right: 20px; padding-left: 20px;}
+
+/*-------------------------------------------------------------------------------------------------------------
+FORM STYLES
+---------------------------------------------------------------------------------------------------------------*/
+
+/* FORMSEARCH Header ----------------------------------------------------*/ 
+
+.brd-form-w {border: 1px solid; border-radius: 8px; border-color: #fff; color:#fff;}
+input ::placeholder .input-w {color:#fff; opacity:1; }
+
+
+/*-------------------------------------------------------------------------------------------------------------
+CARDS
+---------------------------------------------------------------------------------------------------------------*/
+
+.card-mod-1 {background-color: #fff; border-radius: 8px; }
+.card-effects {box-shadow: 1px 1px 8px #c6c6c6; transition: 0.8s;}
+.card-effects:hover {box-shadow: 14px 14px 12px #e0e0e0; transition: 0.8s;}
+
+.img-brd-radius {border-radius: 8px 8px 0px 0px !important;}
+
+.card-footer-2 {background-color:#dcecff; }
+.card-footer-txt {font-size: 0.7rem; color:#7191b9;}
+
+.card-cat-2 {font-size: 0.8rem; font-weight: lighter; color: #777777; margin-bottom: 0.1rem !important;}
+p .card-cat-2 {margin-bottom: 0.1rem !important;}
+.card-title-2 {font-size:1.2rem; line-height: 1.2rem; font-weight: bold; color:#274e7f; text-transform: uppercase; transition: 0.8s;}
