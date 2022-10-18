@@ -6,22 +6,19 @@ import ReactDOM from 'react-dom';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // Styles of CSS
-import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import './styles/custom.css';
 import './styles/rpc-theme.css';
 
 // Componentes
-//import App from './App';
-import Card from './componentes/Card'
-import Header from './componentes/Header'
+import App from './App';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <Card />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
